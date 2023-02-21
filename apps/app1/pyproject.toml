@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pkg1 = { path = "../../libs/pkg1", develop = false }
+pkg1 = { git = "git@github.com:fiahil/poetry-localdep-issue-2.git", subdirectory = "libs/pkg1", rev = "9195b139eaedea7eb607195896425c03d13ff9fd" }
 
 [tool.poetry.dev-dependencies]
 
